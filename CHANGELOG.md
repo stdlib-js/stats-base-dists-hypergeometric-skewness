@@ -2,6 +2,51 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2025-03-01)
+
+<section class="features">
+
+### Features
+
+-   [`61bb593`](https://github.com/stdlib-js/stdlib/commit/61bb59320efa31c8f9c942ca3bbade7828ce6165) - **stats:** add C implementation for `stats/base/dists/hypergeometric/skewness` [(#4560)](https://github.com/stdlib-js/stdlib/pull/4560)
+
+</section>
+
+<!-- /.features -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`61bb593`](https://github.com/stdlib-js/stdlib/commit/61bb59320efa31c8f9c942ca3bbade7828ce6165) - **feat(stats):** add C implementation for `stats/base/dists/hypergeometric/skewness` [(#4560)](https://github.com/stdlib-js/stdlib/pull/4560) _(by Karan Anand, stdlib-bot)_
+-   [`b9bddfe`](https://github.com/stdlib-js/stdlib/commit/b9bddfefbcc4f301f5a63c9de30b2c11b13a989f) - **bench:** refactor random number generation in `stats/base/dists/hypergeometric` [(#4955)](https://github.com/stdlib-js/stdlib/pull/4955) _(by Karan Anand)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Karan Anand
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-28)
