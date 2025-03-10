@@ -1,5 +1,27 @@
-"use strict";var o=function(r,e){return function(){return e||r((e={exports:{}}).exports,e),e.exports}};var n=o(function(g,q){
-var i=require('@stdlib/math-base-assert-is-nonnegative-integer/dist'),u=require('@stdlib/math-base-special-sqrt/dist'),v=require('@stdlib/constants-float64-pinf/dist');function c(r,e,t){var s,a;return!i(r)||!i(e)||!i(t)||r===v||e===v||e>r||t>r?NaN:(s=(r-2*e)*u(r-1)*(r-2*t),a=u(t*e*(r-e)*(r-t))*(r-2),s/a)}q.exports=c
-});var p=n();module.exports=p;
 /** @license Apache-2.0 */
-//# sourceMappingURL=index.js.map
+
+'use strict';
+
+/**
+* Hypergeometric distribution skewness.
+*
+* @module @stdlib/stats-base-dists-hypergeometric-skewness
+*
+* @example
+* var skewness = require( '@stdlib/stats-base-dists-hypergeometric-skewness' );
+*
+* var v = skewness( 16, 11, 4 );
+* // returns ~-0.258
+*
+* v = skewness( 4, 2, 2 );
+* // returns 0.0
+*/
+
+// MODULES //
+
+var main = require( './main.js' );
+
+
+// EXPORTS //
+
+module.exports = main;
